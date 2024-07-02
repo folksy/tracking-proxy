@@ -1,6 +1,15 @@
 # Nginx Proxy for Mixpanel
 An example nginx config that serves as a proxy to Mixpanel's Ingestion API and JavaScript library endpoints. To learn more, visit our [docs on Tracking via Proxy](https://docs.mixpanel.com/docs/tracking/how-tos/tracking-via-proxy).
 
+## Folksy build ##
+
+Build the image with:
+
+```bash
+bin/build.sh
+```
+
+Instructions on how to push the image will follow at successful completion of the build script.
 
 ## Installation
 
